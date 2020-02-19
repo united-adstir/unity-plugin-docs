@@ -9,7 +9,6 @@ adstirのインテグレーションガイドです。Unityプラグインは管
 * Android 4.4 以上
 * minSdkVersion 14以上
 * compileSdkVersion 28以上
-* AndroidX 必須
 
 ### iOS
 

@@ -21,7 +21,8 @@ UnityAds| o | o | o | o
 ### MoPubの追加実装
 
 
-[こちら](https://developers.google.com/admob/unity/mediation/mopub?hl=ja#step_3_import_the_mopub_sdk_and_adapter)を参考に`GoogleMobileAdsMoPubMediation.unitypackage`を導入し、MoPub SDKの初期化を行ってください。  
+[こちら](https://bintray.com/google/mobile-ads-adapters-unity/download_file?file_path=GoogleMobileAdsMoPubMediation%2F2.9.0%2FGoogleMobileAdsMoPubMediation-2.9.0.zip)から`GoogleMobileAdsMoPubMediation.unitypackage`をダウンロードし、Unityプラグインをインポートしてください。  
+インポート後に下記を参考に、MoPub SDKの初期化を行ってください。  
 `MOPUB_AD_UNIT_ID`は営業担当よりおしらせします。  
 
 ```java hl_lines="1 4 5 6 7 8 10 11"

@@ -9,7 +9,6 @@
 * Android 4.4 以上
 * minSdkVersion 14以上
 * compileSdkVersion 28以上
-* AndroidX 必須
 
 ### iOS
 
@@ -21,6 +20,7 @@
 ## 事前準備
 
 [AdMobのスタートガイド](https://developers.google.com/admob/unity/start?hl=ja)を参考に、AdMobの設定をおこなってください。  
+[Google Mobile Ads Unity Plugin](https://github.com/googleads/googleads-mobile-unity/releases)は、v4.2.0以上のものをご利用ください。
 
 ### メディエーションの準備
 

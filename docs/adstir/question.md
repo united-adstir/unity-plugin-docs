@@ -68,3 +68,9 @@ v2.14.0のファイル・フォルダの一覧については、下記を参考�
                 ├── libAdstirAdsMediationAdapter-TapJoy.a
                 └── libAdstirAdsMediationAdapter-TikTok.a
     ```
+
+
+## 特定のネットワークのSDKを外したい
+
+adstirの依存関係は、`Assets/AdstirAds/Editor`にあるxmlファイルに設定されています。  
+xmlファイルに記載してあるネットワーク名を参考に、ネットワークのSDKを削除してください。
