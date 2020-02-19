@@ -1,4 +1,4 @@
-# adstir SDK android のドキュメント
+# adstir Unityプラグイン のドキュメント
 
 最新のドキュメントは下記をご覧ください。
 
