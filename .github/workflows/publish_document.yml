@@ -26,12 +26,12 @@ jobs:
           echo "::set-output name=deploy_tag_name::${TAG_NAME}"
 
       - name: Deploy to GitHub Pages with tag
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v2
         if: startsWith(github.ref, 'refs/tags/')
         env:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./site
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./site
         with:
           tagName: ${{ steps.prepare_tag.outputs.deploy_tag_name }}
           tagMessage: "Deployment ${{ steps.prepare_tag.outputs.tag_name }}"
@@ -39,11 +39,11 @@ jobs:
           keepFiles: true
 
       - name: Deploy to GitHub Pages with push master 
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v2
         if: startsWith(github.ref, 'refs/heads/master')
         env:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./site
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./site
         with:
           keepFiles: true
