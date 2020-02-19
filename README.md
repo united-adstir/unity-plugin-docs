@@ -2,5 +2,5 @@
 
 最新のドキュメントは下記をご覧ください。
 
-https://united-adstir.github.io/android-sdk-docs
+https://united-adstir.github.io/unity-plugin-docs/
 
