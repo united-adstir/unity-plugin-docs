@@ -1,0 +1,61 @@
+site_name: "adstir Integration Guide for Unity"
+theme:
+  name: 'material'
+  language: 'ja'
+  palette:
+    primary: 'white'
+    accent: 'white'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  feature:
+    tabs: true
+  custom_dir: 'custom_dir'
+  logo: 'images/adstir_icon.ico'
+
+use_directory_urls: false
+
+extra:
+  language: 'jp'
+
+# CSSの設定
+extra_css:
+  - css/custom.css
+
+# 拡張機能の設定
+markdown_extensions:
+  - admonition # 警告文出せるやつ
+  - footnotes
+  - pymdownx.superfences
+  - codehilite:
+      linenums: false
+  - meta
+  - toc:
+      slugify: !!python/name:pymdownx.slugs.uslugify
+      permalink: true
+      anchorlink: true
+  - pymdownx.tasklist:  
+      custom_checkbox: true
+  - pymdownx.details
+
+nav:
+  - スタートガイド: index.md
+  - adstir: 
+      - はじめに: adstir/index.md
+      - 初期設定: adstir/init.md
+      - 対応ネットワーク一覧: adstir/network.md
+      - 広告の実装:
+        - バナー: adstir/ad/banner.md
+        - 動画リワード: 
+          - 実装: adstir/ad/reward/index.md
+          - リワードコールバック: adstir/ad/reward/callback.md
+        - 全画面インタースティシャル: adstir/ad/interstitial.md
+  - AdMob: 
+      - はじめに: admob/index.md
+      - AdMobメディエーション: admob/network.md
+      - よくある質問: admob/question.md
+  - 変更履歴: changelog.md
+
+plugins:
+  - search
+  - markdownextradata: {}
