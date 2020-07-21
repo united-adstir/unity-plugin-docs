@@ -23,7 +23,7 @@ Play Services Resolverを使用して、iOS/AndroidのSDKをプロジェクト�
 
 <img src="../images/init_02.png" width="50%">
 
-[Assets] > [Play Services Resolver] > [Android Resolver] > [Resolve] を選択し、SDKを追加します。
+[Assets] > [External Dependency Manager] > [Android Resolver] > [Resolve] を選択し、SDKを追加します。
 
 <img src="../images/init_03.png" width="50%">
 
