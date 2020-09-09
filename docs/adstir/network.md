@@ -17,4 +17,4 @@ MoPub   | o | o | o | o | o
 Nend    | o | o | - | o | o
 Tapjoy  | o | o | - | o | o
 UnityAds| o | o | - | o | -
-TikTok  | - | o | - | o | o
+TikTok  | o | o | - | o | o
