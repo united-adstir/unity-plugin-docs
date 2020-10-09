@@ -12,7 +12,6 @@ AdCorsa | o | o | - | o | o
 AppLovin| o | o | - | o | o
 imobile | o | o | - | - | o
 Maio    | o | o | - | o | o
-Mobvista| o | o | - | o | o
 MoPub   | o | o | o | o | o
 Nend    | o | o | - | o | o
 Tapjoy  | o | o | - | o | o

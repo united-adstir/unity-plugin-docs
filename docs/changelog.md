@@ -1,5 +1,10 @@
 # 変更履歴
 
+## v2.15.5 (2020/10/09)
+
+- Mobvista(Mintegral) SDKのBundleを終了
+- Amazon Publisher Services(APS) SDKのBundleを終了
+
 ## v2.15.4 (2020/09/09)
 
 - Android SDKの更新(2.15.10)
