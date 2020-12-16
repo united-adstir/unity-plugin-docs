@@ -30,3 +30,7 @@ Play Services Resolverを使用して、iOS/AndroidのSDKをプロジェクト�
 ### iOS
 iOSのSDKは、ビルド時に[CocoaPods](https://cocoapods.org/)によって追加されます。  
 SDKを追加する特別な手順はありません。
+
+#### info.plistの更新
+
+iOS 14以降で[SKAdNetwork 2.0](https://developer.apple.com/documentation/storekit/skadnetwork)を利用するために、Unityが出力したXCodeプロジェクトのinfo.plistに[こちら](https://united-adstir.github.io/ios-sdk-docs/adstir/init/ios14.html)を参考にして更新をお願いいたします。

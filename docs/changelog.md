@@ -1,5 +1,14 @@
 # 変更履歴
 
+ * iOSのアプリには[こちら](https://united-adstir.github.io/ios-sdk-docs/adstir/init/ios14.html)を参考にinfo.plistの更新をお願いします。
+
+## v2.15.6 (2020/12/16)
+
+- [Android SDKの更新(2.15.16)](https://united-adstir.github.io/android-sdk-docs/changelog.html#v21516-20201215)
+- [iOS SDKの更新(2.15.11)](https://united-adstir.github.io/ios-sdk-docs/changelog.html#v21511-20201209)
+    - iOS 14対応の更新などが含まれております
+    - MoPubのSDKは含まれておりません
+
 ## v2.15.5 (2020/10/09)
 
 - Mobvista(Mintegral) SDKのBundleを終了

@@ -3,7 +3,7 @@
 adstirのインテグレーションガイドです。Unityプラグインは管理画面から入手することができます。
 
 ## 前提条件
-* Unity2017 以上
+* Unity2018 以上
 
 ### Android
 * Android 4.4 以上
@@ -12,7 +12,7 @@ adstirのインテグレーションガイドです。Unityプラグインは管
 
 ### iOS
 
-* iOS 9 以上
+* iOS 10 以上
 * Xcode 10 以上
 * CocoaPods 必須
 
