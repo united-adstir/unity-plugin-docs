@@ -2,6 +2,11 @@
 
  * iOSのアプリには[こちら](https://united-adstir.github.io/ios-sdk-docs/adstir/init/ios14.html)を参考にinfo.plistの更新をお願いします。
 
+## v2.15.8 (2021/04/26)
+
+- [iOS SDKの更新(2.15.17)](https://united-adstir.github.io/ios-sdk-docs/changelog.html#v21517-20210412)
+    - SKAdNetwork関連の修正が含まれております
+
 ## v2.15.7 (2021/03/09)
 - [iOS SDKの更新(2.15.15)](https://united-adstir.github.io/ios-sdk-docs/changelog.html#v21515-20210303)
     - iOS 14対応やSKAdNetwork対応の更新などが含まれております
