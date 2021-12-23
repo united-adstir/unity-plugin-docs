@@ -2,6 +2,13 @@
 
  * iOSのアプリには[こちら](https://united-adstir.github.io/ios-sdk-docs/adstir/init/ios14.html)を参考にinfo.plistの更新をお願いします。
 
+## v2.15.9 (2021/12/22)
+
+- [Android SDKの更新(2.15.23)](https://united-adstir.github.io/android-sdk-docs/changelog.html#v21523-20211220)
+- [iOS SDKの更新(2.15.24)](https://united-adstir.github.io/ios-sdk-docs/changelog.html#v21524-20211115)
+    - MoPubのSDKは含まれておりません
+    - MaioのAdMobメディエーションアダプターは含まれておりません
+    
 ## v2.15.8 (2021/04/26)
 
 - [iOS SDKの更新(2.15.17)](https://united-adstir.github.io/ios-sdk-docs/changelog.html#v21517-20210412)

@@ -13,7 +13,7 @@ adstirのインテグレーションガイドです。Unityプラグインは管
 ### iOS
 
 * iOS 10 以上
-* Xcode 10 以上
+* Xcode 12.5 以上
 * CocoaPods 必須
 
 ## Unityプラグインのインポート
