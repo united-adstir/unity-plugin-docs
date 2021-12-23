@@ -1,7 +1,7 @@
 # AdMob広告について
 
 ## 前提条件
-* Unity2017 以上
+* Unity 2018.4 以上
 
 ### Android
 * Android 4.4 以上
@@ -10,15 +10,15 @@
 
 ### iOS
 
-* iOS 9 以上
-* Xcode 10 以上
+* iOS 10 以上
+* Xcode 12.5 以上
 * CocoaPods 必須
 
 
 ## 事前準備
 
 [AdMobのスタートガイド](https://developers.google.com/admob/unity/start?hl=ja)を参考に、AdMobの設定をおこなってください。  
-[Google Mobile Ads Unity Plugin](https://github.com/googleads/googleads-mobile-unity/releases)は、v4.2.0以上のものをご利用ください。
+[Google Mobile Ads Unity Plugin](https://github.com/googleads/googleads-mobile-unity/releases)は、v6.0.0以上のものをご利用ください。
 
 ### メディエーションの準備
 
