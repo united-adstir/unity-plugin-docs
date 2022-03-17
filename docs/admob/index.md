@@ -1,7 +1,7 @@
 # AdMob広告について
 
 ## 前提条件
-* Unity 2018.4 以上
+* Unity 2019 以上
 
 ### Android
 * Android 4.4 以上
@@ -18,7 +18,7 @@
 ## 事前準備
 
 [AdMobのスタートガイド](https://developers.google.com/admob/unity/start?hl=ja)を参考に、AdMobの設定をおこなってください。  
-[Google Mobile Ads Unity Plugin](https://github.com/googleads/googleads-mobile-unity/releases)は、v6.0.0以上のものをご利用ください。
+[Google Mobile Ads Unity Plugin](https://github.com/googleads/googleads-mobile-unity/releases)は、v7.0.0以上のものをご利用ください。
 
 ### メディエーションの準備
 
@@ -33,8 +33,6 @@ AdMobの実装ガイドをご覧ください
 * [バナー](https://developers.google.com/admob/unity/banner?hl=ja)
 * [インタースティシャル](https://developers.google.com/admob/unity/interstitial?hl=ja)
 * [動画リワード](https://developers.google.com/admob/unity/rewarded-ads?hl=ja)
-
-また、アドネットワークによっては追加で実装する必要がございます。 [追加実装](network#追加実装)をご覧になり、実装をお願いします。
 
 ### テストデバイスの追加
 [開発時にはテスト端末を追加する](https://developers.google.com/admob/unity/test-ads?hl=ja#add_your_test_device)より、広告リクエスト時にデバイスIDの設定をおこなってください。  

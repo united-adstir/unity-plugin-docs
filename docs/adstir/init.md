@@ -33,4 +33,5 @@ SDKを追加する特別な手順はありません。
 
 #### info.plistの更新
 
-iOS 14以降で[SKAdNetwork 2.0](https://developer.apple.com/documentation/storekit/skadnetwork)を利用するために、Unityが出力したXCodeプロジェクトのinfo.plistに[こちら](https://united-adstir.github.io/ios-sdk-docs/adstir/init/ios14.html)を参考にして更新をお願いいたします。
+iOS 14以降で[SKAdNetwork](https://developer.apple.com/documentation/storekit/skadnetwork)を利用するために、Info.plistにSKAdNetworkItemsを設定する必要があります。  
+[こちら](https://united-adstir.github.io/ios-sdk-docs/adstir/init/ios14.html)から最新のSKAdNetworkItemsを取得し、`Assets/Adstir/Editor/info.plist`のSKAdNetworkItemsを更新してください。
