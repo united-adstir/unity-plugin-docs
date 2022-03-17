@@ -469,26 +469,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#追加実装" class="md-nav__link">
-    追加実装
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#mopubの追加実装" class="md-nav__link">
-    MoPubの追加実装
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
       
       
       
@@ -556,26 +536,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#追加実装" class="md-nav__link">
-    追加実装
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#mopubの追加実装" class="md-nav__link">
-    MoPubの追加実装
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
       
       
       
@@ -629,13 +589,6 @@
 <td align="center">o</td>
 </tr>
 <tr>
-<td>MoPub</td>
-<td align="center">o</td>
-<td align="center">o</td>
-<td align="center">o</td>
-<td align="center">o</td>
-</tr>
-<tr>
 <td>nend</td>
 <td align="center">o</td>
 <td align="center">o</td>
@@ -658,25 +611,7 @@
 </tr>
 </tbody>
 </table>
-<p>※ MoPub / maioはAndroidのみ</p>
-<h2 id="追加実装"><a class="toclink" href="#追加実装">追加実装</a><a class="headerlink" href="#追加実装" title="Permanent link">&para;</a></h2>
-<p>アドネットワークによっては追加実装が必要なネットワークがございます。下記を参照して実装をお願いします。</p>
-<h3 id="mopubの追加実装"><a class="toclink" href="#mopubの追加実装">MoPubの追加実装</a><a class="headerlink" href="#mopubの追加実装" title="Permanent link">&para;</a></h3>
-<p><a href="https://bintray.com/google/mobile-ads-adapters-unity/download_file?file_path=GoogleMobileAdsMoPubMediation%2F2.9.0%2FGoogleMobileAdsMoPubMediation-2.9.0.zip">こちら</a>から<code>GoogleMobileAdsMoPubMediation.unitypackage</code>をダウンロードし、Unityプラグインをインポートしてください。<br />
-インポート後に下記を参考に、MoPub SDKの初期化を行ってください。<br />
-<code>MOPUB_AD_UNIT_ID</code>は営業担当よりおしらせします。  </p>
-<div class="codehilite"><pre><span></span><span class="hll"><span class="n">using</span> <span class="n">GoogleMobileAds</span><span class="p">.</span><span class="na">Api</span><span class="p">;</span>
-</span><span class="n">using</span> <span class="n">GoogleMobileAds</span><span class="p">.</span><span class="na">Api</span><span class="p">.</span><span class="na">Mediation</span><span class="p">.</span><span class="na">MoPub</span><span class="p">;</span>
-
-<span class="hll"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">GoogleMobileAdsDemoScript</span> <span class="p">:</span> <span class="n">MonoBehaviour</span>
-</span><span class="hll"><span class="p">{</span>
-</span><span class="hll">    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">Start</span><span class="p">()</span>
-</span><span class="hll">    <span class="p">{</span>
-</span><span class="hll">        <span class="n">MobileAds</span><span class="p">.</span><span class="na">Initialize</span><span class="p">(</span><span class="n">appId</span><span class="p">);</span>
-</span>        <span class="n">MoPub</span><span class="p">.</span><span class="na">Initialize</span><span class="p">(</span><span class="s">&quot;MOPUB_AD_UNIT_ID&quot;</span><span class="p">);</span>
-<span class="hll">    <span class="p">}</span>
-</span><span class="hll"><span class="p">}</span>
-</span></pre></div>
+<p>※ maioはAndroidのみ</p>
                 
                   
                 
