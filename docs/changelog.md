@@ -1,6 +1,18 @@
 # 変更履歴
 
- * iOSのアプリには[こちら](https://united-adstir.github.io/ios-sdk-docs/adstir/init/ios14.html)を参考にinfo.plistの更新をお願いします。
+ * iOSのアプリには[こちら](adstir/init.md#infoplistの更新)を参考にinfo.plistの更新をお願いします。
+
+## v2.15.10 (2022/03/17)
+
+- [Android SDKの更新(2.15.25)](https://united-adstir.github.io/android-sdk-docs/changelog.html#v21525-20220315)
+- [iOS SDKの更新(2.15.26)](https://united-adstir.github.io/ios-sdk-docs/changelog.html#v21526-20220224)
+    - MaioのAdMobメディエーションアダプターは含まれておりません
+- SKAdNetworkIDを設定する機能を追加
+    - [こちら](adstir/init.md#infoplistの更新)を参考にinfo.plistの更新をお願いします。
+- [Google Mobile Ads Unity Plugin](https://github.com/googleads/googleads-mobile-unity/releases)は、v7.0.0以上のものをご利用ください
+    - [v7.0.0](https://github.com/googleads/googleads-mobile-unity/releases/tag/v7.0.0)でGoogle Mobile Ads iOS SDK v9がサポートされております
+- AdMobアダプタ テスト
+    - Google Mobile Ads Unity Plugin version 7.0.0
 
 ## v2.15.9 (2021/12/22)
 
