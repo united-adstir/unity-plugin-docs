@@ -2,6 +2,12 @@
 
  * iOSのアプリには[こちら](adstir/init.md#infoplistの更新)を参考にinfo.plistの更新をお願いします。
 
+## v2.15.11 (2022/03/29)
+
+- [Android SDKの更新(2.15.26)](https://united-adstir.github.io/android-sdk-docs/changelog.html#v21526-20220328)
+- AdMobアダプタ テスト
+    - Google Mobile Ads Unity Plugin version 7.0.0
+
 ## v2.15.10 (2022/03/17)
 
 - [Android SDKの更新(2.15.25)](https://united-adstir.github.io/android-sdk-docs/changelog.html#v21525-20220315)
