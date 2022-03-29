@@ -12,4 +12,5 @@ nend    | o | o | o | o
 Tapjoy  | - | o | o | o
 UnityAds| o | o | o | o
 
-※ maioはAndroidのみ
+※ maioはAndroidのみ  
+※ TapjoyはiOSのみ
